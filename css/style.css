@@ -813,6 +813,17 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
+.layer {
+    background-color: rgba(69, 90, 100, 0.4);
+    background-size:			auto,								cover;
+	background-position:		top left,							center center;
+    position: relative;
+	margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 14em 0 14em 0;
+}
+
 	#header
 	{
 		position: relative;
@@ -821,7 +832,6 @@
 		background-size:			auto,								cover;
 		background-position:		top left,							center center;
 		background-repeat:			repeat,								no-repeat;
-		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
 	}
